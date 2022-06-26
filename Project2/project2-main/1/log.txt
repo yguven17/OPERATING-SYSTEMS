@@ -1,0 +1,13 @@
+EventID, Status, Request Time, End Time, Turnaround Time, Pad
+678       1          2          6          4          A
+271       1          4          6          2          B
+528       1          6          8          2          A
+344       1         10         12          2          A
+228       1         12         14          2          A
+623       3          6         18         12          B
+545       1         18         22          4          A
+792       1         20         24          4          B
+781       1         22         26          4          A
+527       1         24         28          4          B
+965       1         26         30          4          A
+827       1         30         34          4          B
