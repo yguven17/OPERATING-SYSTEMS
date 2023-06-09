@@ -1,0 +1,180 @@
+At 0 sec polling station 1, special: 0 
+At 0 sec polling station 1, ordinary: 
+At 0 sec total votes: Mary: 0, John: 1, Anna: 0
+At 1 sec polling station 1, special: 0 2 
+At 1 sec polling station 1, ordinary: 
+At 1 sec total votes: Mary: 0, John: 1, Anna: 0
+At 2 sec polling station 1, special: 2 
+At 2 sec polling station 1, ordinary: 3 
+At 2 sec total votes: Mary: 1, John: 1, Anna: 0
+At 3 sec polling station 1, special: 2 4 
+At 3 sec polling station 1, ordinary: 3 
+At 3 sec total votes: Mary: 1, John: 1, Anna: 0
+At 4 sec polling station 1, special: 4 
+At 4 sec polling station 1, ordinary: 3 5 
+At 4 sec total votes: Mary: 1, John: 2, Anna: 0
+At 5 sec polling station 1, special: 4 
+At 5 sec polling station 1, ordinary: 3 5 7 
+At 5 sec total votes: Mary: 1, John: 2, Anna: 0
+At 6 sec polling station 1, special: 
+At 6 sec polling station 1, ordinary: 3 5 7 9 
+At 6 sec total votes: Mary: 1, John: 2, Anna: 1
+At 7 sec polling station 1, special: 
+At 7 sec polling station 1, ordinary: 3 5 7 9 11 
+At 7 sec total votes: Mary: 1, John: 2, Anna: 1
+At 8 sec polling station 1, special: 
+At 8 sec polling station 1, ordinary: 5 7 9 11 13 
+At 8 sec total votes: Mary: 2, John: 2, Anna: 1
+At 9 sec polling station 1, special: 6 
+At 9 sec polling station 1, ordinary: 5 7 9 11 13 
+At 9 sec total votes: Mary: 2, John: 2, Anna: 1
+At 10 sec polling station 1, special: 
+At 10 sec polling station 1, ordinary: 5 7 9 11 13 
+At 10 sec total votes: Mary: 2, John: 2, Anna: 2
+At 11 sec polling station 1, special: 
+At 11 sec polling station 1, ordinary: 5 7 9 11 13 15 
+At 11 sec total votes: Mary: 2, John: 2, Anna: 2
+At 12 sec polling station 1, special: 
+At 12 sec polling station 1, ordinary: 5 7 9 11 13 15 17 
+At 12 sec total votes: Mary: 2, John: 2, Anna: 2
+At 13 sec polling station 1, special: 10 
+At 13 sec polling station 1, ordinary: 5 7 9 11 13 15 17 
+At 13 sec total votes: Mary: 2, John: 2, Anna: 2
+At 14 sec polling station 1, special: 10 
+At 14 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 
+At 14 sec total votes: Mary: 2, John: 2, Anna: 2
+At 15 sec polling station 1, special: 10 
+At 15 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 
+At 15 sec total votes: Mary: 2, John: 2, Anna: 2
+At 16 sec polling station 1, special: 10 
+At 16 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 
+At 16 sec total votes: Mary: 2, John: 2, Anna: 2
+At 17 sec polling station 1, special: 
+At 17 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 
+At 17 sec total votes: Mary: 3, John: 2, Anna: 2
+At 18 sec polling station 1, special: 12 
+At 18 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 
+At 18 sec total votes: Mary: 3, John: 2, Anna: 2
+At 19 sec polling station 1, special: 14 
+At 19 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 
+At 19 sec total votes: Mary: 3, John: 2, Anna: 3
+At 20 sec polling station 1, special: 14 
+At 20 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 
+At 20 sec total votes: Mary: 3, John: 2, Anna: 3
+At 21 sec polling station 1, special: 14 
+At 21 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 
+At 21 sec total votes: Mary: 3, John: 2, Anna: 3
+At 22 sec polling station 1, special: 14 
+At 22 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 
+At 22 sec total votes: Mary: 3, John: 2, Anna: 3
+At 23 sec polling station 1, special: 14 
+At 23 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 
+At 23 sec total votes: Mary: 3, John: 2, Anna: 3
+At 24 sec polling station 1, special: 14 
+At 24 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 
+At 24 sec total votes: Mary: 3, John: 2, Anna: 3
+At 25 sec polling station 1, special: 14 18 
+At 25 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 
+At 25 sec total votes: Mary: 3, John: 2, Anna: 3
+At 26 sec polling station 1, special: 18 20 
+At 26 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 
+At 26 sec total votes: Mary: 4, John: 2, Anna: 3
+At 27 sec polling station 1, special: 18 20 
+At 27 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 
+At 27 sec total votes: Mary: 4, John: 2, Anna: 3
+At 28 sec polling station 1, special: 20 
+At 28 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 
+At 28 sec total votes: Mary: 5, John: 2, Anna: 3
+At 29 sec polling station 1, special: 20 
+At 29 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 
+At 29 sec total votes: Mary: 5, John: 2, Anna: 3
+At 30 sec polling station 1, special: 
+At 30 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 
+At 30 sec total votes: Mary: 5, John: 3, Anna: 3
+At 31 sec polling station 1, special: 24 
+At 31 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 
+At 31 sec total votes: Mary: 5, John: 3, Anna: 3
+At 32 sec polling station 1, special: 24 26 
+At 32 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 
+At 32 sec total votes: Mary: 5, John: 3, Anna: 3
+At 33 sec polling station 1, special: 24 26 
+At 33 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 
+At 33 sec total votes: Mary: 5, John: 3, Anna: 3
+At 34 sec polling station 1, special: 24 26 28 
+At 34 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 
+At 34 sec total votes: Mary: 5, John: 3, Anna: 3
+At 35 sec polling station 1, special: 24 26 28 30 
+At 35 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 
+At 35 sec total votes: Mary: 5, John: 3, Anna: 3
+At 36 sec polling station 1, special: 24 26 28 30 
+At 36 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 
+At 36 sec total votes: Mary: 5, John: 3, Anna: 3
+At 37 sec polling station 1, special: 26 28 30 
+At 37 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 
+At 37 sec total votes: Mary: 6, John: 3, Anna: 3
+At 38 sec polling station 1, special: 26 28 30 32 
+At 38 sec polling station 1, ordinary: 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 
+At 38 sec total votes: Mary: 6, John: 3, Anna: 3
+At 39 sec polling station 1, special: 26 28 30 32 34 
+At 39 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 
+At 39 sec total votes: Mary: 6, John: 3, Anna: 4
+At 40 sec polling station 1, special: 26 28 30 32 34 
+At 40 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 
+At 40 sec total votes: Mary: 6, John: 3, Anna: 4
+At 41 sec polling station 1, special: 26 28 30 32 34 
+At 41 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 
+At 41 sec total votes: Mary: 6, John: 3, Anna: 4
+At 42 sec polling station 1, special: 26 28 30 32 34 38 
+At 42 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 
+At 42 sec total votes: Mary: 6, John: 3, Anna: 4
+At 43 sec polling station 1, special: 26 28 30 32 34 38 
+At 43 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 
+At 43 sec total votes: Mary: 6, John: 3, Anna: 4
+At 44 sec polling station 1, special: 26 28 30 32 34 38 
+At 44 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 
+At 44 sec total votes: Mary: 6, John: 3, Anna: 4
+At 45 sec polling station 1, special: 26 28 30 32 34 38 40 
+At 45 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 
+At 45 sec total votes: Mary: 6, John: 3, Anna: 4
+At 46 sec polling station 1, special: 28 30 32 34 38 40 42 
+At 46 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 
+At 46 sec total votes: Mary: 7, John: 3, Anna: 4
+At 47 sec polling station 1, special: 28 30 32 34 38 40 42 
+At 47 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 
+At 47 sec total votes: Mary: 7, John: 3, Anna: 4
+At 48 sec polling station 1, special: 30 32 34 38 40 42 44 
+At 48 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 
+At 48 sec total votes: Mary: 8, John: 3, Anna: 4
+At 49 sec polling station 1, special: 30 32 34 38 40 42 44 46 
+At 49 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 
+At 49 sec total votes: Mary: 8, John: 3, Anna: 4
+At 50 sec polling station 1, special: 32 34 38 40 42 44 46 
+At 50 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 
+At 50 sec total votes: Mary: 8, John: 4, Anna: 4
+At 51 sec polling station 1, special: 32 34 38 40 42 44 46 
+At 51 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 
+At 51 sec total votes: Mary: 8, John: 4, Anna: 4
+At 52 sec polling station 1, special: 32 34 38 40 42 44 46 
+At 52 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 
+At 52 sec total votes: Mary: 8, John: 4, Anna: 4
+At 53 sec polling station 1, special: 32 34 38 40 42 44 46 50 
+At 53 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 
+At 53 sec total votes: Mary: 8, John: 4, Anna: 4
+At 54 sec polling station 1, special: 32 34 38 40 42 44 46 50 52 
+At 54 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 
+At 54 sec total votes: Mary: 8, John: 4, Anna: 4
+At 55 sec polling station 1, special: 32 34 38 40 42 44 46 50 52 54 
+At 55 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 
+At 55 sec total votes: Mary: 8, John: 4, Anna: 4
+At 56 sec polling station 1, special: 32 34 38 40 42 44 46 50 52 54 56 
+At 56 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 
+At 56 sec total votes: Mary: 8, John: 4, Anna: 4
+At 57 sec polling station 1, special: 34 38 40 42 44 46 50 52 54 56 
+At 57 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 
+At 57 sec total votes: Mary: 8, John: 5, Anna: 4
+At 58 sec polling station 1, special: 34 38 40 42 44 46 50 52 54 56 
+At 58 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 
+At 58 sec total votes: Mary: 8, John: 5, Anna: 4
+At 59 sec polling station 1, special: 38 40 42 44 46 50 52 54 56 58 
+At 59 sec polling station 1, ordinary: 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 
+At 59 sec total votes: Mary: 8, John: 6, Anna: 4

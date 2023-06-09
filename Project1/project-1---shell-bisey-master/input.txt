@@ -1,0 +1,6 @@
+line_1_input
+line_2_input
+line_3_input
+line_1_append
+line_2_append
+line_3_append
