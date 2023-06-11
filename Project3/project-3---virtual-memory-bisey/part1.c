@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <sys/mman.h>
-#include <sys/types.h>
-#include <sys/stat.h>
+
 #include <fcntl.h>
 #include <stdlib.h>
 #include <string.h>
@@ -48,30 +47,27 @@ int max(int a, int b){
 int search_tlb(unsigned int logical_page) {
   for (int i = 0; i < TLB_SIZE; i++) {
     if (tlb[i].logical == logical_page) {
-      tlb[i].reference = 1; // Set reference bit to 1 on a TLB hit
+      tlb[i].reference = 1; // Mark the page as referenced
       return tlb[i].physical;
     }
   }
   return -1; // Not found in TLB
 }
 
-
-/* Adds the specified mapping to the TLB, replacing the oldest mapping (FIFO replacement). */
+/* Adds the specified mapping to the TLB, replacing the oldest mapping (second chance replacement). */
 void add_to_tlb(unsigned int logical, unsigned int physical) {
-    // Cycle through the TLB, looking for a reference bit that is 0.
-    while (tlb[tlbindex % TLB_SIZE].reference != 0) {
-      // Set the reference bit to 0 since it's already 1, giving it a second chance.
-      tlb[tlbindex % TLB_SIZE].reference = 0;
-      tlbindex = (tlbindex + 1) % TLB_SIZE;
+  while (1) {
+    if (tlb[tlbindex].reference == 0) {
+        tlb[tlbindex].logical = logical;
+        tlb[tlbindex].physical = physical;
+        tlb[tlbindex].reference = 1; // Set the reference bit to 1 for the new entry
+        tlbindex = (tlbindex + 1) % TLB_SIZE; // Move to next page
+        break;
+    } else {
+        tlb[tlbindex].reference = 0; // Clear reference bit if it's set
+        tlbindex = (tlbindex + 1) % TLB_SIZE; // Move to next page
     }
-
-    // Replace the entry at tlbindex.
-    tlb[tlbindex % TLB_SIZE].logical = logical;
-    tlb[tlbindex % TLB_SIZE].physical = physical;
-    tlb[tlbindex % TLB_SIZE].reference = 1; // Set the reference bit to 1 for the new entry
-
-    // Increment the tlbindex for the next replacement.
-    tlbindex = (tlbindex + 1) % TLB_SIZE;
+  }
 }
 
 int main(int argc, const char *argv[]){
@@ -91,6 +87,11 @@ int main(int argc, const char *argv[]){
   int i;
   for (i = 0; i < PAGES; i++) {
     pagetable[i] = -1;
+  }
+  for (i = 0; i < TLB_SIZE; i++){
+    tlb[i].logical = -1;
+    tlb[i].physical = -1;
+    tlb[i].reference = 0;
   }
   
   // Character buffer for reading lines of input file.
@@ -125,15 +126,15 @@ int main(int argc, const char *argv[]){
       // Page fault
       if (physical_page == -1) {
           /* TODO */
-          page_faults++;
-          physical_page = free_page;
-          free_page++;
+          page_faults++; // increment page fault
+          physical_page = free_page; // set physical page to the next free page in memory
+          free_page++; // increment free page
 
           // Copy the page from the backing file into physical memory
-          memcpy(main_memory + physical_page*PAGE_SIZE, backing + logical_page*PAGE_SIZE, PAGE_SIZE);
+          memcpy(main_memory + physical_page*PAGE_SIZE, backing + logical_page*PAGE_SIZE, PAGE_SIZE); // copy the page from the backing file into physical memory at the physical page number multiplied by the page size
 
           // Update the page table
-          pagetable[logical_page] = physical_page;
+          pagetable[logical_page] = physical_page; // update the page table to map the logical page to the physical page
 
       }
 
